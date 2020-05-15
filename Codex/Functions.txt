@@ -1,0 +1,28 @@
+Stack Functions:
+    isempty(Stack)
+    delete_first_element(Stack)
+    insert_first_element(Stack, element)
+    auto_stack(size)
+    display(Stack)
+
+Encryption Functions:
+    encrypt(text, key)
+    decrypt(text, key)
+
+String Functions:
+    isstring(string)
+    wordcount(text)
+    vowelcount(text)
+    strreverse(string)
+
+Credential Validation:
+    phonecheck(number)
+    passcheck(password)
+
+Credential Database Functions:
+    register_cred(username,password,path)
+    cred_checker(username, password,path)
+
+OTP Plugin:
+    send_otp(emailid, admin_email, password)
+
