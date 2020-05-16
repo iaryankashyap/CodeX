@@ -1,5 +1,5 @@
 # CodeX
-A python module for python developers.
+A python module for python developers
 
 <h3>Website:</h3>
 <a href="bit.ly/codexpy">Click here</a>
