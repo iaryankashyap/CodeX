@@ -26,3 +26,6 @@ Credential Database Functions:
 OTP Plugin:
     send_otp(emailid, admin_email, password)
 
+List Functions:
+    listgreatest(list)
+    uniquelist(list)

@@ -219,3 +219,33 @@ def send_otp(emailid, admin_email, password):
     server.sendmail(admin_email, emailid, content)
     server.close()
     return x
+
+
+#LIST_FUNCTIONS
+
+def listgreatest(list):
+    list.sort()
+    return list[len(list)-1]
+
+def uniquelist(list):
+    l=len(list)
+    k=0
+    try:
+        while k<l:
+            if list.count(list[k]) > 1:
+                print(list.count(list[k]))
+                g=list.pop(k)
+            
+                print(list)
+                if k==1:
+                    k=k-1
+                if k>1:
+                    k=k-2
+                else:
+                    k=k-1
+            k=k+1
+    except:
+        pass
+    else:
+        pass
+    return list
