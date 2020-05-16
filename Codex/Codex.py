@@ -1,6 +1,6 @@
 
 '''
-~Codex v1.0
+~Codex v1.1
 
 This Module is registered under Apache License 2.0
 
@@ -124,6 +124,7 @@ def vowelcount(text):
     return count 
 
 def strreverse(string):
+    '''Reverses a string'''
     return string[::-1]
 
 
@@ -219,3 +220,33 @@ def send_otp(emailid, admin_email, password):
     server.sendmail(admin_email, emailid, content)
     server.close()
     return x
+
+
+#LIST_FUNCTIONS
+
+def listgreatest(list):
+    '''returns greatest element of a list'''
+    list.sort()
+    return list[len(list)-1]
+
+def uniquelist(list):
+    '''deletes all the duplicate elements of a list'''
+    l=len(list)
+    k=0
+    try:
+        while k<l:
+            if list.count(list[k]) > 1:
+                g=list.pop(k)
+                if k==1:
+                    k=k-1
+                if k>1:
+                    k=k-2
+                else:
+                    k=k-1
+            k=k+1
+    except:
+        pass
+    else:
+        pass
+    return list
+
