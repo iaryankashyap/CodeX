@@ -1,6 +1,6 @@
 
 '''
-~Codex v1.0
+~Codex v1.1
 
 This Module is registered under Apache License 2.0
 
