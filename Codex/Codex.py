@@ -124,6 +124,7 @@ def vowelcount(text):
     return count 
 
 def strreverse(string):
+    '''Reverses a string'''
     return string[::-1]
 
 
@@ -224,19 +225,18 @@ def send_otp(emailid, admin_email, password):
 #LIST_FUNCTIONS
 
 def listgreatest(list):
+    '''returns greatest element of a list'''
     list.sort()
     return list[len(list)-1]
 
 def uniquelist(list):
+    '''deletes all the duplicate elements of a list'''
     l=len(list)
     k=0
     try:
         while k<l:
             if list.count(list[k]) > 1:
-                print(list.count(list[k]))
                 g=list.pop(k)
-            
-                print(list)
                 if k==1:
                     k=k-1
                 if k>1:
@@ -249,3 +249,4 @@ def uniquelist(list):
     else:
         pass
     return list
+
