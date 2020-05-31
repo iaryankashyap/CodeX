@@ -58,6 +58,7 @@ def display(Stack):
 
 # PASSWORD_ENCRYPTION-DECRYPTION_FUNCTIONS
 
+
 def encrypt(text, key="ZXCVMNBLKJFGHDSAQWEYTRUIOP"):
     '''Encrypts the normal text as per the key'''
     if len(key) != 26 or key.isupper() == False or isstring(text) == False:
@@ -215,6 +216,7 @@ def cred_checker(username, password, path):
 
 # OTP_PLUGIN
 
+
 def send_otp(emailid, admin_email, password):
     '''Sends an e-mail containing otp on the email address passed into the function'''
     x = random.randint(1000, 5000)
@@ -255,3 +257,33 @@ def uniquelist(list):
     else:
         pass
     return list
+
+# DS-ALGOS
+
+# binary search
+def binary_search(arr, x):
+    arr.sort()
+    low = 0
+    high = len(arr) - 1
+    mid = 0
+
+    while low <= high:
+
+        mid = (high + low) // 2
+
+        # Check if x is present at mid
+        if arr[mid] < x:
+            low = mid + 1
+
+        # If x is greater, ignore left half
+        elif arr[mid] > x:
+            high = mid - 1
+
+        # If x is smaller, ignore right half
+        else:
+            return mid
+
+    # If we reach here, then the element was not present
+    return "Not Found"
+
+
