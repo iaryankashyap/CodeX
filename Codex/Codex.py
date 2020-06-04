@@ -7,7 +7,7 @@ This Module is registered under Apache License 2.0
 Contact:
 
     Email: aryank.kashyap77783@gmail.com
-    Github: @AryanKashyap2022
+    Github: @iaryankashyap
 
 '''
 
