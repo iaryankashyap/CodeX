@@ -1,4 +1,5 @@
 # CodeX v1.1
+
 A python module for python developers.
 
 <h3>Functions:</h3>
@@ -35,6 +36,9 @@ OTP Plugin:
 List Functions:
     listgreatest(list) : returns greatest element of a list
     uniquelist(list) : deletes all the duplicate elements of a list
+
+DS-Algo:
+    binary_search(list) : implements binary search.
 ```
 
 <h3>Website:</h3>
