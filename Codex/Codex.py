@@ -17,7 +17,7 @@ import random
 
 # Functions
 
-# STACK____FUNCTIONS
+# STACK_FUNCTIONS
 
 
 def isempty(Stack):
@@ -261,6 +261,8 @@ def uniquelist(list):
 # DS-ALGOS
 
 # binary search
+
+
 def binary_search(arr, x):
     arr.sort()
     low = 0
@@ -285,5 +287,3 @@ def binary_search(arr, x):
 
     # If we reach here, then the element was not present
     return "Not Found"
-
-
