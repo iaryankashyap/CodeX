@@ -158,7 +158,22 @@ def passcheck(password):
         return False
 
 
+def isemail(email):
+    '''Checks for a valid email address.'''
+    at = 0
+    firat = False
+    for i in range(len(email)):
+        if email[i] == '@':
+            at += 1
+        if email[0] == '@':
+            firat = True
+    if at == 1 and firat == False:
+        print(True)
+    else:
+        print(False)
+
 # File_Writing_Credentials
+
 
 def register_cred(username, password, path):
     '''Registers the username and password to text file as per the path'''
