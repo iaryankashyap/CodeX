@@ -25,6 +25,7 @@ String Functions:
 Credential Validation:
     phonecheck(number) : Checks the phone number for validation
     passcheck(password) : Checks the password for validation
+    isemail(email) : Checks for a valid email address.
 
 Credential Database Functions:
     register_cred(username,password,path) : Registers the username and password to text file as per the path
