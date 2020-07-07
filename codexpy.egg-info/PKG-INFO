@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: codexpy
-Version: 0.0.1
+Version: 0.0.2
 Summary: General use module.
 Home-page: UNKNOWN
 Author: Aryan Kashyap
@@ -75,6 +75,10 @@ Description: A python module for python developers.
         0.0.1 (07/06/2020)
         ------------------
         - First Release
+        
+        0.0.2 (07/06/2020)
+        ------------------
+        - Fixed smtp bug
 Keywords: codexpy
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable

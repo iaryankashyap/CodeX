@@ -8,5 +8,4 @@ codexpy/codexpy.py
 codexpy.egg-info/PKG-INFO
 codexpy.egg-info/SOURCES.txt
 codexpy.egg-info/dependency_links.txt
-codexpy.egg-info/requires.txt
 codexpy.egg-info/top_level.txt

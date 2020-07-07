@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='codexpy',
-  version='0.0.1',
+  version='0.0.2',
   description='General use module.',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='',  
@@ -20,5 +20,5 @@ setup(
   classifiers=classifiers,
   keywords='codexpy', 
   packages=find_packages(),
-  install_requires=['smtplib'] 
+  install_requires=[''] 
 )
